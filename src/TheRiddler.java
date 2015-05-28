@@ -36,6 +36,8 @@ public class TheRiddler {
 		JOptionPane.showMessageDialog(null, "Sorry, the answer is the word short.");
 		System.out.println(score);
 	}
+	
+
 
 		// 5. Otherwise, say "wrong" and tell them the answer
 
