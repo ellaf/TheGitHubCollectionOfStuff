@@ -7,6 +7,7 @@ public static void main(String[] args) {
 	Robot Walter = new Robot ();
 
 	Walter.penDown();
+	Walter.setSpeed(5);
 	
 	Walter.sparkle();
 	Walter.move(100);
@@ -28,6 +29,7 @@ public static void main(String[] args) {
 	Walter.turn(90);
 	Walter.penUp();
 	Walter.move(200);
+
 	
 
 }
