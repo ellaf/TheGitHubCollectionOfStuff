@@ -13,11 +13,10 @@ import org.teachingextensions.logo.Turtle.Animals;
 public class TortoiseColorChooser {
 	public static void main(String[] args) {
 int Angles = (180/3);
-	Tortoise.setAnimal(Animals.Unicorn);
 	Tortoise.setSpeed(10);
 
 		//3. ask the user what color they would like the tortoise to draw
-	String Color = JOptionPane.showInputDialog(null, "What color would you like the unicorn to draw with? The options are: pink, blue, red, and yellow. Or, try a random color (write random)!");
+	String Color = JOptionPane.showInputDialog(null, "What color would you like the turtle to draw with? The options are: pink, blue, red, and yellow. Or, try a random color (write random)!");
 		//4. use an if/else statement to set the pen color that the user requested
 if (Color.equals ("pink")) {
 	Tortoise.setPenColor(Colors.Pinks.LightPink);
